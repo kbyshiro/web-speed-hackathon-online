@@ -26,13 +26,14 @@ module.exports = {
       title: 'Amida Blog: あみぶろ',
       template: path.resolve(__dirname, 'src', 'index.html'),
       inject: false,
-    }),
+    })
   ],
 
   module: {
     rules: [
       {
         test: /\.m?jsx?$/,
+        exclude:'/node_modules/',
         use: {
           loader: 'babel-loader',
         },
@@ -48,7 +49,4 @@ module.exports = {
 
   target: 'web',
 
-  devtool: 'inline-source-map',
-
-  mode: 'none',
 };
