@@ -64,3 +64,7 @@ $ yarn build
 ```bash
 $ yarn serve
 ```
+### 本番環境
+herokuapp:https://wsho-kbys.herokuapp.com/
+https://github.com/kbyshiro/web-speed-hackathon-online.gitにpushすれば自動的にデプロイされる。
+
